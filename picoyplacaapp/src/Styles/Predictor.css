@@ -1,0 +1,102 @@
+.bigContainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-Content: center;
+    align-Items: center;
+    text-align: center;
+    color: #fff;
+
+    
+}
+
+.card{
+    width: 40%;
+    height: 80%;
+    background-Color: #151618;
+    border: 1.5px solid #8fb8c4;   
+    border-Radius: 5%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /*To justify all the items with equal dimentions around of each element*/
+    justify-content: space-around;
+
+}
+
+.title{
+    font-Family: 'Arial sans-serif';
+}
+
+/*----------------------To the inputs ----------------------*/
+#cardInputs{
+    background-color: #1b1c21;
+
+    width: 95%;
+    height: 60%;
+    /* margin-bottom: 3%; */
+    border: 1px solid #a1a5af;
+    border-radius: 5%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.divInput{
+    width: 65%;
+    height:fit-content;
+    border: 1px solid #83b8ff;
+
+    display: flex;
+    flex-flow:column;
+    align-items: center;
+} 
+
+.inputTitle{
+    background-color: #1b1c21;
+    width:fit-content;
+
+    /*To occult the back line*/
+    padding-left: 2%;
+    padding-right: 2%;
+
+    /*To put title up*/
+    margin-bottom: 0%;
+    /* To delete space between the input title and the input */
+    margin-top: -2.5%;
+}
+
+.inputItem{
+    /*To make spaces between the input title and the input*/
+    margin: 1.5% 0% 4% 0%;
+
+    /*Size of inputs*/
+    width: 75%;
+    height: 25px;
+
+}
+
+.button{
+    width: 19%;
+    height: 5.5%;
+    border-radius: 10px;
+    background-color: #353742;
+    color: #fff;
+    font-size: large;
+
+    /*To make a shadow*/
+    box-shadow: 10px 8px 3px rgba(0,0,0,0.3);
+}
+
+
+/*Error management*/
+.inputError{
+    font-size: 10px;
+    margin: 0px 0px;
+    display: none;
+
+}

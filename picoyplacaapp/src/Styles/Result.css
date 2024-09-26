@@ -1,0 +1,51 @@
+#resultContainer{
+    /* To make it appear in the center of the screen*/
+    position: absolute;
+    width : 30vw;
+    height : 50vh;
+
+    /* Color */
+    background-color: #1f2025;
+    border: 1px solid #8ac7da;
+    border-radius: 5%;
+    
+    /* To center the component in the middle of screen */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* To make the result appear "up" in the layers */
+    z-index: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    color:#fff;
+}
+
+#resultButton{
+    position: fixed;
+    width:8%;
+    height: 10%;
+    border-radius: 20%;
+    top: 2%;
+    right:2%;
+
+    color:red;
+    background-color: #353742;
+    font-size: large;
+    font-weight: bold;
+}
+
+#restultTextContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+
+    font-size: large;
+    font-weight: 700;
+    font-style: oblique;
+}
+
